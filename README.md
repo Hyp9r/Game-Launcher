@@ -1,3 +1,3 @@
 # Game-Launcher
 Launcher for MMO game
-![SS of Launcher](https://imgur.com/xzAHSov)
+![SS of Launcher](https://i.imgur.com/xzAHSov.png)
