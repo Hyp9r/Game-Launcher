@@ -1,0 +1,63 @@
+VBox{
+    -fx-alignment:center;
+    -fx-spacing: 10px;
+    -fx-padding: 20 60 20 60;
+}
+
+VBox > Label{
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+#avatar{
+    -fx-background-image: url("/images/avatar.png");
+    -fx-min-width: 64px;
+    -fx-min-height: 64px;
+}
+
+#imagePane{
+    -fx-background-image: url("/images/background.png");
+    -fx-background-size	: cover;
+}
+
+#imagePane > HBox{
+    -fx-alignment: bottom-right;
+}
+
+#imagePane Button{
+    -fx-background-color: transparent;
+    -fx-color: #000;
+    -fx-font-size: 20px;
+}
+
+#imagePane Button:hover{
+    -fx-background-color: #e74c3c;
+}
+
+TextField{
+    -fx-min-width: 280px;
+    -fx-min-height: 40px;
+}
+
+PasswordField{
+    -fx-min-height: 40px;
+}
+
+VBox > Button{
+    -fx-background-image: url("/images/right.png");
+    -fx-background-repeat: no-repeat;
+    -fx-min-width: 50px;
+    -fx-min-height:40px;
+    -fx-background-color: #2ecc71;
+    -fx-background-position: center;
+}
+
+VBox > Button:hover{
+    -fx-opacity: 0.75;
+}
+
+#version{
+    -fx-font-size: 12px;
+}
+
+TextField:

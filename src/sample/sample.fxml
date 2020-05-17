@@ -1,0 +1,51 @@
+
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<BorderPane fx:controller="sample.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+    <left>
+        <BorderPane>
+            <center>
+                <VBox prefWidth="340">
+                    <Label fx:id="avatar"></Label>
+                    <Label>Sign in Pokemon</Label>
+                    <TextField promptText="USERNAME"></TextField>
+                    <PasswordField promptText="PASSWORD"></PasswordField>
+                    <CheckBox text="Stay signed in"></CheckBox>
+                    <Button></Button>
+                </VBox>
+            </center>
+            <bottom>
+                <VBox>
+                    <Hyperlink>CREATE ACCOUNT</Hyperlink>
+                    <Hyperlink>CAN'T SIGN IN?</Hyperlink>
+                    <Label fx:id="version">V1.0.0</Label>
+                </VBox>
+            </bottom>
+        </BorderPane>
+    </left>
+    <center>
+        <BorderPane fx:id="imagePane">
+            <top>
+                <HBox>
+                    <Button onAction="#buttonClickHandler" text="X"></Button>
+                </HBox>
+            </top>
+            <bottom>
+                <HBox>
+                    <!--<ProgressBar></ProgressBar>-->
+                </HBox>
+            </bottom>
+        </BorderPane>
+    </center>
+</BorderPane>
